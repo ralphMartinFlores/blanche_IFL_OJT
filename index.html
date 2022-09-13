@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/624804faba.js" crossorigin="anonymous"></script>
+    <!-- End of Font Awesome -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Blanche | Home</title>
+</head>
+<body>
+    <div class="main__container">
+        <nav>
+        <!-- Mobile Menu -->
+        <div id="myNav" class="overlay">
+            <div class="flex-overlay">
+               <button onclick="closeNav()" class="closebtn">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" fill="#FFFFFF">
+                     <path d="M0 0h24v24H0V0z" fill="none"/>
+                     <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/>
+                  </svg>
+               </button>
+            </div>
+            <div class="overlay-content">
+               <a href="#">Shop</a>
+               <a href="#">Our Story</a>
+               <a href="#">Expertise</a>
+               <a href="#">Contact</a>
+            </div>
+         </div>
+         <!-- End of Mobile Menu -->
+            <ul>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Our Story</a></li>
+                <li><a href="">Expertise</a></li>
+            </ul>
+            <div class="logo__container">
+                <img src="assets/images/blanche-logo.png" alt="Blanche logo">
+            </div>
+            <ul>
+                <li><a href="">Contact</a></li>
+                <div class="nav__container--icons">
+                    <li><a href=""><img class="nav--icon" src="assets/images/search-icon.svg" alt=""></a></li>
+                    <li><a href=""><img class="nav--icon" src="assets/images/person-icon.svg" alt=""></a></li>
+                    <li><a href=""><img class="nav--icon" src="assets/images/cart-icon.svg" alt=""></a></li>
+                </div>
+            </ul>
+            <button class="burgermenu--btn" onclick="openNav()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <section class="hero">
+            <div class="hero__container--banner">
+                <img src="assets/images/hero-banner.png" alt="">
+                <div class="hero__container--text">
+                    <h1>Super Soft, Stylish Bed Linen Made With Love</h1>
+                </div>
+                <div class="hero__container--guide">
+                    <p>Explore</p>
+                    <div class="vertical--divider"></div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <p class="products--main-text">Our premium products got the finest quality cotton that create an exquisite lightweight textile that’s both soft and crisp – guaranteed to give you a wonderful night’s sleep.</p>
+            <div class="gridimg__container">
+                <div class="imgbtn__container">
+                    <img src="assets/images/shop-bed-linens.png" alt="Shop Bed Linens Image" loading="lazy">
+                    <button>Shop Bed Linens</button>
+                </div>
+                <div class="imgbtn__container">
+                    <img src="assets/images/shop-bath-towels.png" alt="Shop Bath Towels Image" loading="lazy">
+                    <button>Shop Bath Towels</button>
+                </div>
+                <div class="imgbtn__container">
+                    <img src="assets/images/shop-bath-robes.png" alt="Shop Bath Robes Image" loading="lazy">
+                    <button>Shop Bath Robes</button>
+                </div>
+                <div class="imgbtn__container">
+                    <img src="assets/images/shop-home-fragrances.png" alt="Shop Home Fragrances Image" loading="lazy">
+                    <button>Shop Home Fragrances</button>
+                </div>
+            </div>
+            <p class="bestseller--title">Best Sellers</p>
+            <div class="bestseller__container">
+                <div class="bestseller__container--card">
+                    <div class="bestseller__container--img">
+                        <img src="assets/images/Layer_26.png" alt="First Best Seller Product Image" loading="lazy">
+                    </div>
+                    <p class="bestseller__container--prodname">Product Name</p>
+                    <p class="bestseller__container--price">AED XXX</p>
+                    <P class="bestseller__container--status">Available in 5 colours</P>
+                </div>
+                <div class="bestseller__container--card">
+                    <div class="bestseller__container--img">
+                        <img src="assets/images/Layer_24.png" alt="Second Best Seller Product Image" loading="lazy">
+                    </div>
+                    <p class="bestseller__container--prodname">Product Name</p>
+                    <p class="bestseller__container--price">AED XXX</p>
+                    <p class="bestseller__container--coloredstatus">Special Offer<span class="bestseller__container--darktext">Get 25% OFF</span></p>
+                </div>
+                <div class="bestseller__container--card">
+                    <div class="bestseller__container--img">
+                        <img src="assets/images/Layer_25.png" alt="Third Best Seller Product Image" loading="lazy">
+                    </div>
+                    <p class="bestseller__container--prodname">Product Name</p>
+                    <p class="bestseller__container--price">AED XXX</p>
+                    <p class="bestseller__container--status">Available in 3 colours</p>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <p class="features--title">Your Comfort Is Our #1 Priority</p>
+            <div class="featuresgrid__container">
+                <div class="featuresgrid__container--card">
+                    <img src="assets/images/features-icon-1.png" alt="Quality Products Icon">
+                    <p>Quality Products</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                </div>
+                <div class="featuresgrid__container--card">
+                    <img src="assets/images/features-icon-2.png" alt="Lifetime Warranty Icon">
+                    <p>Lifetime Warranty</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                </div>
+                <div class="featuresgrid__container--card">
+                    <img src="assets/images/features-icon-3.png" alt="Stress-free Shopping Icon">
+                    <p>Stress-free Shopping</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                </div>
+                <div class="featuresgrid__container--card">
+                    <img src="assets/images/features-icon-4.png" alt="Fair Prices Icon">
+                    <p>Fair Prices</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials">
+            <img src="assets/images/stars.png" alt="Row of stars image">
+            <p>"This is the best towel set I've ever had; it's cool, comfortable and aesthetically perfect."</p>
+            <a href="">Read Testimonials</a>
+        </section>
+        <section class="instagram">
+            <div class="instagram--flex">
+                <p>Follow Us On</p>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="instagram__img">
+                <img src="assets/images/Layer_30.png" alt="">
+                <img src="assets/images/Layer_31.png" alt="">
+                <img src="assets/images/Layer_32.png" alt="">
+                <img src="assets/images/Layer_33.png" alt="">
+            </div>
+        </section>
+        <footer>
+            <div class="footer__container--links">
+                <div class="footer--item">
+                    <p class="footer--item-title">Our Story</p>
+                    <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul class="socialmedia--icons">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <ul class="footer--item">
+                    <p class="footer--item-title">More ...</p>
+                    <div class="footer--subitem">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Track My Order</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </div>
+                </ul>
+                <ul class="footer--item">
+                    <p class="footer--item-title">SHOP</p>
+                    <div class="footer--subitem">
+                        <li><a href="">Bed Linen</a></li>
+                        <li><a href="">Bed Towels</a></li>
+                        <li><a href="">Bathrobes</a></li>
+                        <li><a href="">Home Fragrances</a></li>
+                    </div>
+                </ul>
+                <div class="footer--item">
+                    <p class="footer--item-title">Newsletter</p>
+                    <p class="lorem">Subscribe to receive updates, access to exclusive deals, and more.</p>
+                    <div class="input--btn">
+                        <input type="text" placeholder="Enter your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__container--copyright">
+                <p>©2020 BLAUCHE</p>
+                <ul class="paymentbrand--logos">
+                    <li><a href=""><i class="fa-brands fa-apple-pay" id="brandicon"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-cc-mastercard" id="brandicon"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-cc-paypal" id="brandicon"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-cc-visa" id="brandicon"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
